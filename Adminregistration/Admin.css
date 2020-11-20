@@ -1,0 +1,223 @@
+body{
+    margin: 0;  
+    padding: 0;  
+    /* background-image:url('../Images/backgroundemployee.png');  */
+    background-color: #464646;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    font-family: 'Arial';  
+    font-size: 19px;
+  
+}
+table{
+    width: 50%;
+    margin: 0% auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+tr{
+    border-bottom: 1px solid #cbcbcb;
+}
+/* th, td{
+    border: none;
+    height: 30px;
+    padding: 2px;
+} */
+tr:hover{
+    background: #464646;
+}
+
+td:hover{
+    color: #ffff;
+}
+
+form{
+    max-width: 450px;
+	background: #b1aba2;
+	padding: 30px;
+    margin: 50px auto;
+	box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+	border-radius: 20px;
+	border: 6px solid #000000;
+}
+.input-group{
+    margin: 10px 0px 10px 0px;
+}
+.input-group label{
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+.input-group input, select{
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.btn{
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #000000;
+    border: none;
+    border-radius: 5px;
+
+}
+.msg{
+    margin: 30px auto;
+    padding: 10px;
+    border-radius: 5px;
+    color: #3c763d;
+    background: #dff0d8;
+    border: 1px solid #3c763d;
+    width: 50%;
+    text-align: center;
+}
+
+/* .edit_btn {
+    text-decoration: none;
+    padding: 2px 5px;
+    background: #2e8bf7;
+    color: white;
+    border-radius: 3px;
+}
+
+.del_btn {
+    text-decoration: none;
+    padding: 2px 5px;
+    background: #800000;
+    color: white;
+    border-radius: 3px;
+} */
+
+/*Table*/
+table {
+    border-spacing: 1;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 6px;
+    overflow: hidden;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+table * {
+    position: relative;
+}
+table td, table th {
+    padding-left: 8px;
+}
+table thead tr {
+    height: 60px;
+    background:  #000000;
+    font-size: 16px;
+}
+table tbody tr {
+    height: 48px;
+    border-bottom: 1px solid #e3f1d5;
+}
+table tbody tr:last-child {
+    border: 0;
+}
+table td, table th {
+    text-align: left;
+}
+table td.l, table th.l {
+    text-align: right;
+}
+table td.c, table th.c {
+    text-align: center;
+}
+table td.r, table th.r {
+    text-align: center;
+}
+@media screen and (max-width: 35.5em) {
+    table {
+        display: block;
+   }
+    table > *, table tr, table td, table th {
+        display: block;
+   }
+    table thead {
+        display: none;
+   }
+    table tbody tr {
+        height: auto;
+        padding: 8px 0;
+   }
+    table tbody tr td {
+        padding-left: 45%;
+        margin-bottom: 12px;
+   }
+    table tbody tr td:last-child {
+        margin-bottom: 0;
+   }
+    table tbody tr td:before {
+        position: absolute;
+        font-weight: 700;
+        width: 40%;
+        left: 10px;
+        top: 0;
+   }
+    table tbody tr td:nth-child(1):before {
+        content: "Code";
+   }
+    table tbody tr td:nth-child(2):before {
+        content: "Stock";
+   }
+    table tbody tr td:nth-child(3):before {
+        content: "Cap";
+   }
+    table tbody tr td:nth-child(4):before {
+        content: "Inch";
+   }
+    table tbody tr td:nth-child(5):before {
+        content: "Box Type";
+   }
+}
+
+th{
+    color: white;
+}
+
+.ed, .del, .log{
+    height:30px;
+    width:30px;
+}
+
+.logout{
+    margin-top: 20px;
+    margin-bottom: -30px;
+    margin-left: 1467px;
+}
+
+.lists{
+    margin-bottom: 50px;
+}
+
+/* ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #293249;
+}
+  
+li {
+    float: right;
+}
+  
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 10px 61px;
+text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #aca1a1;
+} */

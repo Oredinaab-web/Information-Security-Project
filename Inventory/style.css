@@ -1,0 +1,308 @@
+body{
+
+    margin: 0;  
+    padding: 0;  
+    /* background-image: url('../Images/backgroundInventory.jpeg');  */
+    background-color: #41aea9;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    font-family: 'Arial';  
+    font-size: 19px;
+}
+table{
+    width: 100%;
+    margin: 0% auto;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+    text-align: left;
+}
+/* tr{
+    border-bottom: 1px solid #cbcbcb;
+}
+th, td{
+    border: none;
+    height: 30px;
+    padding: 2px;
+} */
+
+th{
+    color: white;
+}
+tr:hover{
+    background: #213e3b;
+}
+
+form{
+ 
+    max-width: 450px;
+	background: #a3dddd;
+	padding: 30px;
+    margin: 50px auto;
+    margin-left: 85px;
+	box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+	border-radius: 10px;
+	border: 6px solid #111111;
+}
+
+.input-group{
+    margin: 10px 0px 10px 0px;
+    
+}
+
+.border{
+    box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	padding: 8px;
+	outline: none;
+	border: 1px solid #B0CFE0;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+    border: 2px solid #111111;
+}
+
+.border:focus{
+    box-shadow: 0 0 5px #B0CFE0;
+	border:1px solid #B0CFE0;
+
+}
+.input-group label{
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+.input-group input, select{
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.btn{
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #111111;
+    border: none;
+    border-radius: 5px;
+
+}
+/* .msg{
+    margin: -145px 10px 10px 580px;
+    margin-left: 693px;
+    margin-bottom: 0px;
+    padding: 10px;
+    border-radius: 5px;
+    color: #3c763d;
+    background: #dff0d8;
+    border: 1px solid #3c763d;
+    width: 50%;
+    text-align: center;
+} */
+
+.msg{
+    margin: 30px auto;
+    padding: 10px;
+    border-radius: 5px;
+    color: #3c763d;
+    background: #dff0d8;
+    border: 1px solid #3c763d;
+    width: 50%;
+    text-align: center;
+}
+
+.lists{
+    margin: -765px 10px 10px 580px;
+    margin-left: 675px;
+    margin-bottom: 0px;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    height: 420px;
+    width: 800px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 13px;
+    border: 6px solid #111111;
+}
+
+/* Table */
+table {
+    border-spacing: 1;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 6px;
+    overflow: hidden;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+table * {
+    position: relative;
+}
+table td, table th {
+    padding-left: 8px;
+}
+table thead tr {
+    height: 60px;
+    background: #213e3b;
+    font-size: 16px;
+}
+table tbody tr {
+    height: 48px;
+    border-bottom: 1px solid #e3f1d5;
+}
+table tbody tr:last-child {
+    border: 0;
+}
+table td, table th {
+    text-align: left;
+}
+table td.l, table th.l {
+    text-align: right;
+}
+table td.c, table th.c {
+    text-align: center;
+}
+table td.r, table th.r {
+    text-align: center;
+}
+@media screen and (max-width: 35.5em) {
+    table {
+        display: block;
+   }
+    table > *, table tr, table td, table th {
+        display: block;
+   }
+    table thead {
+        display: none;
+   }
+    table tbody tr {
+        height: auto;
+        padding: 8px 0;
+   }
+    table tbody tr td {
+        padding-left: 45%;
+        margin-bottom: 12px;
+   }
+    table tbody tr td:last-child {
+        margin-bottom: 0;
+   }
+    table tbody tr td:before {
+        position: absolute;
+        font-weight: 700;
+        width: 40%;
+        left: 10px;
+        top: 0;
+   }
+    table tbody tr td:nth-child(1):before {
+        content: "Code";
+   }
+    table tbody tr td:nth-child(2):before {
+        content: "Stock";
+   }
+    table tbody tr td:nth-child(3):before {
+        content: "Cap";
+   }
+    table tbody tr td:nth-child(4):before {
+        content: "Inch";
+   }
+    table tbody tr td:nth-child(5):before {
+        content: "Box Type";
+   }
+}
+
+.ed, .del{
+    height:30px;
+    width:30px;
+}
+
+.log{
+    height:30px; 
+    width:50px;
+}
+
+.logout{
+    margin-top: 20px;
+    margin-bottom: -30px;
+    margin-left: 1467px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #213e3b;
+}
+  
+li {
+    float: right;
+}
+  
+li a , .dropbtn{
+display: block;
+color: white;
+text-align: center;
+padding: 10px 61px;
+text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #a6f6f1;
+}
+
+a:hover{
+    color: black;
+}
+
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.Prod-list{
+    margin: -300px 10px 10px 580px;
+    margin-left: 675px;
+    margin-bottom: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    height: 420px;
+    width: 800px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 13px;
+    border: 6px solid #111111;
+}
+
+
